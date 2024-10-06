@@ -10,3 +10,6 @@ This API consists of all 4 major HTTP methods.
 
 # Database
 It used mongoDB database to store the inventory data.
+
+## run the app 
+`uvicorn inventory_manager:app --reload`
